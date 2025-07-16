@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #4a4343;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered {
+  text-align: center;
+  padding: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #c8232c;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 14px 28px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #a41c23;
+}
+
+.pinterest-image {
+  width: 320px;
+  max-width: 90vw;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: block;
+  margin: 0 auto;
+}
+
